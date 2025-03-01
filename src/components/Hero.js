@@ -1,5 +1,6 @@
 "use client";
 "use strict";
+import { motion } from "framer-motion";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Hero = void 0;
 var animatedtext_1 = require("./animatedtext");
@@ -22,8 +23,24 @@ var Hero = function () {
           Life can be overwhelming, and sometimes, all you need is someone who truly listens. Heart2Heart is an AI-powered chatbot designed to be your caring friend and supportive companion. It engages in empathetic conversations by analyzing your words and responding in a thoughtful, comforting manner.
         </p>
       </div>
-      <div className="flex justify-center mt-8">
+      {/* <div className="flex justify-center mt-8">
         <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Try Heart2Heart Chatbot</button>
+      </div> */}
+      <div className="flex justify-center mt-8">
+        <motion.button
+          className='bg-white text-black py-3 px-5 rounded-lg font-medium'
+          whileHover={{
+            scale: 1.05, // Slight scale-up on hover
+            boxShadow: "0px 0px 15px 5px rgba(0, 255, 255, 0.6)", // Cyan glow on hover
+            transition: { duration: 0.3 },
+          }}
+          whileTap={{ scale: 0.95 }} // Slight shrink on click
+          initial={{
+            boxShadow: "0px 0px 5px 2px rgba(0, 255, 255, 0.2)", // Subtle glow at rest
+          }}
+        >
+          Try Heart2Heart Chatbot
+        </motion.button>
       </div>
     </div>
   </div>);

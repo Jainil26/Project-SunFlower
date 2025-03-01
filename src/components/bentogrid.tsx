@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const logos = [
-  "https://res.cloudinary.com/dl2adjye7/image/upload/v1716817722/Amazon_icon.svg_a4qmtg.png",
-  "https://res.cloudinary.com/dl2adjye7/image/upload/v1716800282/Apple_logo_black.svg_seeetv.png",
-  "https://res.cloudinary.com/dl2adjye7/image/upload/v1716800359/WISE.L-b3d3de3c_rexehe.png"
+  "https://res.cloudinary.com/dgxbv5vfe/image/upload/v1740762185/text_jrplgz.png",
+  "https://res.cloudinary.com/dgxbv5vfe/image/upload/v1740735581/facial-recognition_uru80r.png",
+  "https://res.cloudinary.com/dgxbv5vfe/image/upload/v1740734683/pngwing.com_bdyhml.png"
 ];
 
 const lineWidth = 80;

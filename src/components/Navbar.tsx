@@ -31,11 +31,11 @@ export const Navbar = () => {
                 <a href="#newsletter" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Newsletter</a>
 
                 {/* Chatbot Button */}
-                <button 
-                  onClick={() => setIsChatbotOpen(true)} 
+                <button
+                  onClick={() => setIsChatbotOpen(true)}
                   className='bg-white py-2 px-4 rounded-lg text-black'
                 >
-                  Open Chatbot
+                  Log in
                 </button>
               </nav>
 
@@ -48,14 +48,14 @@ export const Navbar = () => {
       {isChatbotOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white w-3/4 h-3/4 rounded-lg shadow-lg relative">
-            <button 
-              onClick={() => setIsChatbotOpen(false)} 
+            <button
+              onClick={() => setIsChatbotOpen(false)}
               className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded"
             >
               Close
             </button>
-            <iframe 
-              src="http://127.0.0.1:5000" 
+            <iframe
+              src="http://127.0.0.1:5000"
               className="w-full h-full border-none"
             ></iframe>
           </div>

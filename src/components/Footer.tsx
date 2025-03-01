@@ -88,17 +88,17 @@ export const Footer = () => {
           </div>
         </div>
 
-      <div className='flex flex-col gap-5 sm:flex-row sm:justify-between'>
-        <div className="text-center">Bhavya has rights are reserved</div>
-        <ul className='flex justify-center gap-2.5'>
-          <li><XIcon/></li>
-          <li><LinkedInIcon/></li>
-          <li><InstaIcon/></li>
-          <li><YoutubeIcon/></li>
-        </ul>
-      </div>
+        <div className='flex flex-col gap-5 sm:flex-row sm:justify-between'>
+          <div className="text-center">Team Howlers has rights are reserved</div>
+          <ul className='flex justify-center gap-2.5'>
+            <li><XIcon /></li>
+            <li><LinkedInIcon /></li>
+            <li><InstaIcon /></li>
+            <li><YoutubeIcon /></li>
+          </ul>
+        </div>
 
-    </div>
+      </div>
     </footer>
   )
 };

@@ -169,8 +169,8 @@ const AWSIcon = () => {
 
 
       <div className="text-left p-6 mt-4">
-        <h1 className="text-white text-2xl font-bold mb-2">Solar Tracking Integration</h1>
-        <p className="text-gray-400 text-lg">Seamlessly integrate our solar tracker with your existing systems.</p>
+        <h1 className="text-white text-2xl font-bold mb-2">Advance Emotion Detection</h1>
+        <p className="text-gray-400 text-lg">Seamlessly detect user's Emotions by integrating voice, text, and facial features.</p>
       </div>
     </div>
   );
@@ -213,10 +213,10 @@ const BentoBox1 = () => {
           <div className="flex flex-col justify-between h-full">
             <div className="mb-4 px-6 mt-6">
               <div className="flex justify-between items-center mb-6 pb-2">
-                <h2 className="text-white/70 text-xl">Solar Output</h2>
+                <h2 className="text-white/70 text-xl">Mood Tracker</h2>
                 <div className="flex items-center">
                   <div className="h-1 bg-black w-8 rounded-lg"></div>
-                  <span className="ml-2 text-white/70 text-sm">Efficiency</span>
+                  <span className="ml-2 text-white/70 text-sm">Emotions</span>
                 </div>
               </div>
               <div ref={chartRef} className="relative w-full mt-12" style={{ height: chartHeight }}>
@@ -268,8 +268,8 @@ const BentoBox1 = () => {
               </div>
             </div>
             <div className="text-left p-6 mt-4">
-              <h1 className="text-white text-2xl font-bold mb-2">Incredible Growth</h1>
-              <p className="text-white/70 text-lg">Maximize Solar Power directly addresses the main benefit of your solar tracking system</p>
+              <h1 className="text-white text-2xl font-bold mb-2">Mood shift over time</h1>
+              <p className="text-white/70 text-lg">Track your Emotions over time to know about your mental Health over time</p>
             </div>
           </div>
         </CardWithEffect>
@@ -278,8 +278,8 @@ const BentoBox1 = () => {
             <div className="flex flex-col justify-center h-full">
               <LogoBeam />
               <div className="text-left p-6">
-                <h1 className="text-white text-2xl font-bold mb-2">Advanced Solar Tracking</h1>
-                <p className="text-white/70 text-lg">Optimize energy capture effortlessly with state-of-the-art tracking technology that moves with the sun, ensuring maximum output every single day.</p>
+                <h1 className="text-white text-2xl font-bold mb-2">Advanced Emotion Tracking</h1>
+                <p className="text-white/70 text-lg">Optimize Emotion capture effortlessly with state-of-the-art Human emotion detection technology that detects your emotion through text ,voice and facial features.</p>
 
               </div>
             </div>

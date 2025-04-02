@@ -170,7 +170,7 @@ const AWSIcon = () => {
 
       <div className="text-left p-6 mt-4">
         <h1 className="text-white text-2xl font-bold mb-2">Advance Emotion Detection</h1>
-        <p className="text-gray-400 text-lg">Seamlessly detect user's Emotions by integrating voice, text, and facial features.</p>
+        <p className="text-gray-400 text-lg">Seamlessly detect users Emotions by integrating voice, text, and facial features.</p>
       </div>
     </div>
   );

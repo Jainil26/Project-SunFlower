@@ -9,7 +9,7 @@ var Hero = function () {
   // Function to handle button click
   var handleButtonClick = function() {
     // Replace 'https://your-external-website.com' with your actual website URL
-    window.location.href = 'https://your-external-website.com';
+    window.location.href = 'https://huggingface.co/spaces/welcometoFightclub/Hack_the_spring';
     
     // Alternatively, if you want to open in a new tab:
     // window.open('https://your-external-website.com', '_blank');
